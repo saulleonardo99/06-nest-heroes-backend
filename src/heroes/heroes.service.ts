@@ -88,7 +88,7 @@ export class HeroesService {
     );
 
     const heroCount = heroes.reduce((acc, hero) => {
-      if (hero.category === 'Hero') {
+      if (hero.category === 'Héroe') {
         return acc + 1;
       }
 
@@ -96,7 +96,7 @@ export class HeroesService {
     }, 0);
 
     const villainCount = heroes.reduce((acc, hero) => {
-      if (hero.category === 'Villain') {
+      if (hero.category === 'Villano') {
         return acc + 1;
       }
 
